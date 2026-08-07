@@ -1,0 +1,6 @@
+{
+  "name": "RTO Vehicle & Driving License Portal",
+  "description": "Government e-governance portal for vehicle registration, driving licenses, ownership transfers, fee payments, document verification, and RTO officer and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
