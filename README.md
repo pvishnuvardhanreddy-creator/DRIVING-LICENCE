@@ -1,8 +1,8 @@
 RTO Vehicle Registration & Driving License Management System
 A modern, secure, and responsive web application designed to digitize Regional Transport Office (RTO) services. This system enables citizens to apply for vehicle registration and driving licenses online while providing RTO officers and administrators with tools to efficiently manage applications, approvals, and reports.
 
-📌 Features
-👤 Citizen Portal
+Features
+Citizen Portal
 User Registration & Login
 Secure Authentication
 Dashboard
@@ -20,7 +20,8 @@ Download Registration Certificate (RC)
 Download Driving License
 Notifications & Alerts
 Profile Management
-👮 RTO Officer Portal
+
+ RTO Officer Portal
 Officer Login
 Dashboard
 Verify Documents
@@ -45,7 +46,8 @@ Audit Logs
 System Configuration
 Database Backup
 Notification Management
-🚀 Technology Stack
+
+Technology Stack
 Frontend
 HTML5
 CSS3
@@ -66,21 +68,22 @@ Chart.js
 Multer (File Uploads)
 Bcrypt
 dotenv
-📂 Project Structure
+
+Project Structure
 rto-management-system/
-│
-├── client/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── layouts/
-│   │   ├── services/
-│   │   ├── context/
-│   │   ├── assets/
-│   │   └── App.js
-│   └── package.json
-│
+
+client/
+public/
+src/
+components/
+pages/
+layouts/
+services/
+context/
+assets/
+App.js
+package.json
+
 ├── server/
 │   ├── config/
 │   ├── controllers/
