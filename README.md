@@ -35,7 +35,7 @@ Manage Citizens
 Manage Vehicles
 View Payment Records
 Generate Reports
-🛠 Administrator Portal
+Administrator Portal
 User Management
 Officer Management
 Vehicle Category Management
@@ -84,33 +84,33 @@ assets/
 App.js
 package.json
 
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   ├── utils/
-│   ├── server.js
-│   └── package.json
+server/
+config/
+controllers/
+middleware/
+models/
+routes/
+uploads/
+utils/
+server.js
+package.json
 │
-├── database/
-│   └── schema.sql
+database/
+schema.sql
 │
-├── docs/
+docs/
+/
+README.md
 │
-├── README.md
-│
-└── .env.example
+.env.example
 
-👥 User Roles
+User Roles
 Role	Description
 Citizen	Applies for licenses, registers vehicles, tracks applications, and downloads certificates
 RTO Officer	Verifies applications, conducts approvals, and manages registrations
 Administrator	Manages users, officers, reports, settings, and system maintenance
 
-📋 Modules
+Modules
 Authentication
 Login
 Registration
@@ -153,7 +153,7 @@ Revenue Reports
 Vehicle Reports
 License Reports
 Export to PDF, CSV, and Excel
-🔒 Security Features
+, Security Features
 JWT Authentication
 Password Hashing (bcrypt)
 Role-Based Access Control
@@ -164,7 +164,7 @@ CSRF Protection
 Secure File Upload Validation
 Session Timeout
 Audit Logging
-📊 Dashboard Features
+,Dashboard Features
 Total Registered Vehicles
 Active Driving Licenses
 Pending Applications
@@ -174,7 +174,7 @@ Monthly Registrations
 Vehicle Categories
 License Statistics
 Interactive Charts and Graphs
-🗄 Database Tables
+, Database Tables
 Users
 Officers
 Vehicles
@@ -187,21 +187,8 @@ Driving Tests
 Notifications
 Audit Logs
 Settings
-⚙ Installation
-Clone the Repository
-git clone https://github.com/your-username/rto-management-system.git
 
-cd rto-management-system
-
-Install Frontend Dependencies
-cd client
-npm install
-
-Install Backend Dependencies
-cd ../server
-npm install
-
-▶ Running the Application
+ Running the Application
 Start Backend
 npm run dev
 
@@ -209,15 +196,7 @@ Start Frontend
 cd ../client
 npm start
 
-The frontend will typically be available at:
-
-http://localhost:3000
-
-The backend API will typically be available at:
-
-http://localhost:5000
-
-🌐 REST API Endpoints
+REST API Endpoints
 Authentication
 POST /api/auth/register
 POST /api/auth/login
@@ -239,17 +218,17 @@ POST /api/payments
 GET /api/payments
 Reports
 GET /api/reports
-📱 Responsive Design
+Responsive Design
 Desktop
 Laptop
 Tablet
 Mobile Devices
-♿ Accessibility
+,Accessibility
 Keyboard Navigation
 High Contrast Support
 Responsive Typography
 WCAG-Friendly Components
-📈 Future Enhancements
+Future Enhancements
 AI Chatbot Support
 QR Code Verification
 SMS Notifications
@@ -259,7 +238,7 @@ Appointment Booking
 Mobile Application
 Multi-language Support
 Progressive Web App (PWA)
-🤝 Contributing
+,Contributing
 Contributions are welcome.
 
 Fork the repository.
@@ -267,6 +246,6 @@ Create a feature branch.
 Commit your changes.
 Push to your branch.
 Open a Pull Request.
-📄 License
+,License
 This project is released under the MIT License. You are free to use, modify, and distribute it in accordance with the license terms.
 
